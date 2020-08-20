@@ -8,6 +8,7 @@
   justify-content: center;
   border: 1px solid black;
   margin: 0 7.5px 15px;
+  overflow: hidden;
 
   &:hover {
     cursor: pointer;
@@ -21,7 +22,7 @@
       opacity: 0.9;
     }
   }
-  
+
   &.large {
     height: 380px;
   }
